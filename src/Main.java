@@ -59,10 +59,10 @@ public class Main {
             System.out.println("Сегодня пятница, " + fraiday + "-е число. Необходимо подготовить отчет");
         }
         System.out.println("Задание 8");
-        int previous = 2024 - 200;
-        int subsequent = 2024 + 100;
-        for (int comet = 0; comet <= subsequent; comet +=79){
-            if (comet >= previous){
+        int startYear = 2024 - 200;
+        int endYear = 2024 + 100;
+        for (int comet = 0; comet <= endYear; comet +=79){
+            if (comet >= startYear){
                 System.out.println(comet);
             }
         }
